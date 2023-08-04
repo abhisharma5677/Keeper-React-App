@@ -48,7 +48,7 @@ const App = () => {
 
       <InputArea onAdd={addNote} />
 
-      <div className='Container'>
+      <div>
         {noteArray.map((detail, index) => {
           return (
             <Notes
